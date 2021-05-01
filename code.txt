@@ -1,0 +1,118 @@
+
+#importing the libraries
+
+import numpy as np
+import matplotlib.pyplot as plt
+import pandas as pd
+import seaborn as sns
+
+
+#importing our cancer dataset
+
+df_cancer = pd.read_csv('C:\\Users\\jprt\\Desktop\\Desktop Folders\\project file\\data.csv')
+X = df_cancer.iloc[:, 2:32]
+y = df_cancer.iloc[:, 1]
+df_cancer.head()
+X.head()
+X.tail()
+
+
+# Checking count of Null values in respective columns
+
+nulls = X.isnull().sum()
+nulls[nulls > 0]
+
+
+# Filling Null values with 0 
+
+X.fillna(0, inplace=True)
+X.tail()
+y.head()
+y.tail()
+
+
+
+#Data Visualization
+
+sns.pairplot(df_cancer, hue = 'diagnosis', vars = ['radius_mean', 'texture_mean', 'area_mean', 'perimeter_mean', 'smoothness_mean'] )
+plt.show()
+sns.countplot(df_cancer['diagnosis'], label = "Count")
+plt.show()
+sns.scatterplot(x = 'area_mean', y = 'smoothness_mean', hue = 'diagnosis', data = df_cancer)
+plt.show()
+
+#Encoding of y
+
+from sklearn.preprocessing import LabelEncoder
+label_y = LabelEncoder()
+y = label_y.fit_transform(y)
+for i in range(5):
+    print(y[i])
+
+
+#splitting dataset
+
+from sklearn.model_selection import train_test_split
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.25, random_state=5)
+X_train.shape
+X_test.shape
+y_train.shape
+y_test.shape
+
+
+#Model training
+
+from sklearn.svm import SVC
+classifier = SVC()
+classifier.fit(X_train, y_train)
+
+
+#Model Evaluation
+
+y_predict = classifier.predict(X_test)
+from sklearn.metrics import confusion_matrix,classification_report
+cm = confusion_matrix(y_test,y_predict)
+sns.heatmap(cm, annot=True)
+plt.show()
+
+
+
+#improving Model
+
+from sklearn.preprocessing import StandardScaler
+sc_x = StandardScaler()
+X_train_scaled = sc_x.fit_transform(X_train)
+X_test_scaled = sc_x.transform(X_test)
+from sklearn.svm import SVC
+classifier = SVC()
+classifier.fit(X_train_scaled, y_train)
+y_predict = classifier.predict(X_test_scaled)
+​
+from sklearn.metrics import confusion_matrix,classification_report
+cm = confusion_matrix(y_test,y_predict)
+sns.heatmap(cm, annot=True)
+​plt.show()
+
+
+
+# Runtime input and prediction
+
+test = []
+for cols in X.columns:
+    print("input value of "+cols)
+    p = float(input())
+    test.append(p)
+
+#after input of values
+
+
+scaled_data = sc_x.transform([test])
+prediction = classifier.predict(scaled_data)
+# Printing output
+# If prediction is 1 it is malignant [Cancerous]
+# If prediction is 0 it is Benign [Non-Cancerous]
+if prediction[0]:
+    print("cancerous cells detected")
+else:
+    print("Cancerous cells not detected")
+​
