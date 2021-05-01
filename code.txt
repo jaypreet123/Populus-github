@@ -23,7 +23,7 @@ nulls = X.isnull().sum()
 nulls[nulls > 0]
 
 
-# Filling Null values with 0 
+# Filling Null values with 0 or na 
 
 X.fillna(0, inplace=True)
 X.tail()
