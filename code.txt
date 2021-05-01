@@ -1,5 +1,5 @@
 
-#importing the lib
+#importing the lib from the data sheet
 
 import numpy as np
 import matplotlib.pyplot as plt
