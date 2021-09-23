@@ -31,6 +31,8 @@ A third-party ad tag is simply a snippet of Javascript code, generated from a 3r
 
   * After preview the javascript tag is escaped with a json escape tool.
   
+## HTML tags:
+
 
 ## Screenshot of escaping tag:
 
