@@ -26,7 +26,6 @@ A third-party ad tag is simply a snippet of Javascript code, generated from a 3r
 </script>
 <script language="javascript" type="text/javascript" src="https://cdn.doubleverify.com/dvbs_src.js?ctx=17280832&cmp=24929807&plc=295286034&sid=6114862&dvregion=0&unit=728x90">
 </script>
-}
 ```
 
   * After preview the javascript tag is escaped with a json escape tool.
