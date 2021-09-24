@@ -1,17 +1,11 @@
-# Third party tags
+## Third Party Tags
 
 A third-party ad tag is simply a snippet of Javascript code, generated from a 3rd party ad server, which is then placed into an ad inventory space on a website or app to display ad creatives that were uploaded on the ad server.
 
-## Setting up third party tags
+Here is an example of a third party tag
 
-* For setting third party tags, javascript tag is verified and previewed whether the add is running in the third party server or not.
-
-
-
-  
-## Sample tag:
-
-```<script type="text/adtag">
+~~~~~
+<script type="text/adtag">
 <ins class='dcmads' style='display:inline-block;width:728px;height:90px'
     data-dcm-placement='N848755.3768237POPULUSMEDIAINC./B24929807.295286034'
     data-dcm-rendering-mode='script'
@@ -26,9 +20,18 @@ A third-party ad tag is simply a snippet of Javascript code, generated from a 3r
 </script>
 <script language="javascript" type="text/javascript" src="https://cdn.doubleverify.com/dvbs_src.js?ctx=17280832&cmp=24929807&plc=295286034&sid=6114862&dvregion=0&unit=728x90">
 </script>
-```
+~~~~~
+### Steps
 
-  * After preview the javascript tag is escaped with a json escape tool.
+#### 1. Preview third party tag to make sure rendering correctly
+
+
+
+#### 2. Replace macros on third party tags
+
+* Replace the cache busting macro with our own macro **[RANDOM]**
+* Replace the GDPR macro with 0
+ 
   
 ## HTML tags:
 
