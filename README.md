@@ -32,6 +32,8 @@ Here is an example of a third party tag
 * Replace the cache busting macro with our own macro **[RANDOM]**
 * Replace the GDPR macro with 0
  
+ #### 3. Escaping third party tags
+ 
   
 ## HTML tags:
 
