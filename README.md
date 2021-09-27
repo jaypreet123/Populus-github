@@ -40,6 +40,10 @@ Here is an example of a third party tag
 
 ![App Screenshot](https://user-images.githubusercontent.com/81978167/134902080-c12eb125-98ac-4412-9fe9-71c4b0245252.png)
 
+### HTML tag
+
+
+
 
  ## How to implement third party tag in campaign.json file:
 
