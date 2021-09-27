@@ -40,9 +40,9 @@ Here is an example of a third party tag
 
 ![App Screenshot](https://user-images.githubusercontent.com/81978167/134903843-06bc1a88-0f14-47bd-831a-276c89134855.png)
 
-## Site served tags
+## Site served creatives
 
-Site-served tags are individual tags for each of your 1x1 placements. Site-served tags are needed when publishers are serving your ads directly and your third-party platform is only tracking the ads.
+Site-served creatives are raw HTML or image files that are hosted by publishers instead of advertisers. We may receive one or more zipped HTML files or image files representing the creatives 
 
 Here is an example of site served tag
 
