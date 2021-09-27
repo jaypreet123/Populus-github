@@ -34,7 +34,7 @@ Here is an example of a third party tag
  
  #### 3. Escaping third party tags
  
- * By using any json escaping tool the tag can be escaped 
+ * Escape javascript tag with the help of json escaping tool 
  
 
 
