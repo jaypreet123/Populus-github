@@ -44,7 +44,11 @@ Here is an example of a third party tag
 
 Site-served tags are individual tags for each of your 1x1 placements. Site-served tags are needed when publishers are serving your ads directly and your third-party platform is only tracking the ads.
 
+Here is an example of site served tag
 
+~~~~~
+<script src="https://cdn.doubleverify.com/dvtp_src.js?ctx=11759811&cmp=25080380&sid=6522434&plc=290523361&adsrv=1&btreg=&btadsrv=&crt=&tagtype=&dvtagver=6.1.src" type="text/javascript"></script>
+~~~~~
 
 
 
