@@ -34,13 +34,14 @@ Here is an example of a third party tag
  
  #### 3. Escaping third party tags
  
-  
-## HTML tags:
+ * By using any json escaping tool the tag can be escaped 
+ 
+
 
 
 ## Screenshot of escaping tag:
 
-![App Screenshot](https://user-images.githubusercontent.com/81978167/134119283-8bd60dfd-9ef3-47bb-b39a-0766aa464bfb.png)
+
 
  ## How to implement third party tag in campaign.json file:
 
