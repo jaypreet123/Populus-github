@@ -50,6 +50,10 @@ Here is an example of site served tag
 <script src="https://cdn.doubleverify.com/dvtp_src.js?ctx=11759811&cmp=25080380&sid=6522434&plc=290523361&adsrv=1&btreg=&btadsrv=&crt=&tagtype=&dvtagver=6.1.src" type="text/javascript"></script>
 ~~~~~
 
+steps
+
+* Site served tag is concatenated with third party tag and escaped
+* The escaping process remains the same for all tags
 
 
 
