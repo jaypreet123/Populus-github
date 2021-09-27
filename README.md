@@ -55,6 +55,8 @@ steps
 * Site served tag is concatenated with third party tag and escaped
 * The escaping process remains the same for all tags
 
+### HTML tag
+
 
 
  ## How to implement third party tag in campaign.json file:
