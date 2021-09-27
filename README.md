@@ -38,7 +38,7 @@ Here is an example of a third party tag
 
     screenshot of escaping tag:
 
-![App Screenshot](https://user-images.githubusercontent.com/81978167/134902080-c12eb125-98ac-4412-9fe9-71c4b0245252.png)
+![App Screenshot](https://user-images.githubusercontent.com/81978167/134903843-06bc1a88-0f14-47bd-831a-276c89134855.png)
 
 ### HTML tag
 
