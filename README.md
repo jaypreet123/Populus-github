@@ -40,8 +40,9 @@ Here is an example of a third party tag
 
 ![App Screenshot](https://user-images.githubusercontent.com/81978167/134903843-06bc1a88-0f14-47bd-831a-276c89134855.png)
 
-## site served tags
+### site served tags
 
+Site-served tags are individual tags for each of your 1x1 placements. Site-served tags are needed when publishers are serving your ads directly and your third-party platform is only tracking the ads.
 
 
 
