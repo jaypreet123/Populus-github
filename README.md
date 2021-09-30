@@ -42,15 +42,19 @@ Here is an example of a third party tag
 
 ## Site served creatives
 
-Site-served creatives are raw HTML or image files that are hosted by publishers instead of advertisers. We may receive one or more zipped HTML files or image files representing the creatives 
+Site-served creatives are raw HTML or image files that are hosted by publishers instead of advertisers. We may receive one or more zipped HTML files or image files representing the creatives
 
-Here is an example of site served tag
+steps for setting up HTML tag
 
-~~~~~
-<script src="https://cdn.doubleverify.com/dvtp_src.js?ctx=11759811&cmp=25080380&sid=6522434&plc=290523361&adsrv=1&btreg=&btadsrv=&crt=&tagtype=&dvtagver=6.1.src" type="text/javascript"></script>
-~~~~~
-
-steps
+1. The HTML tag can be either in zip folder or the folder directly
+2. Unzip the folder and move the file to the github local repository in the path ad.populus-media.net/2021 
+3. Test the HTML tag by running a local server or in the HTML tag tester tool
+4. Make sure to fix the dimensions like height, width and border of the tag as required 
+5. Use <iframe src="put tag url here"></iframe> and test the tag in the HTML tag tester tool
+6. If the tag is working properly, the tag must be escaped with the help of json escaping tool
+7. 
+8. Create a campaign.json file inside the main folder 
+9. 
 
 * Site served tag is concatenated with third party tag and escaped
 * The escaping process remains the same for all tags
