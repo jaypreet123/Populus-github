@@ -59,7 +59,7 @@ Site-served creatives are raw HTML or image files that are hosted by publishers 
 2. Unzip the folder and move the file to the github local repository in the path ad.populus-media.net/2021 
 3. Test the HTML tag by running a local server and in the HTML tag tester tool
 4. Make sure to fix the dimensions like height, width and border of the tag as required 
-5. Use <iframe src="put tag url here"></iframe> and test the tag in the HTML tag tester tool
+5. Use `<iframe src="put tag url here"></iframe>` and test the tag in the HTML tag tester tool
 6. If the tag is working properly, the tag must be escaped with the help of json escaping tool
 7. Create a campaign.json file inside the main folder 
 8. In campaign.json file enter the height, width, ctype, and put the escaped tag under adTags within " "
