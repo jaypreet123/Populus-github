@@ -40,6 +40,15 @@ Here is an example of a third party tag
 
 ![App Screenshot](https://user-images.githubusercontent.com/81978167/134903843-06bc1a88-0f14-47bd-831a-276c89134855.png)
 
+### 4. Creating campaign.json file
+
+* Create campaign.json file under the main folder of the campaign and move the folder to  ad.populus-media.net/2021 in local git repository
+* Write proper height, width, ctype of the image and paste the escaped tag under adTgas within " "
+
+sample campaign.json file is shown below
+
+
+
 ## Site served creatives
 
 Site-served creatives are raw HTML or image files that are hosted by publishers instead of advertisers. We may receive one or more zipped HTML files or image files representing the creatives
