@@ -53,7 +53,7 @@ sample campaign.json file is shown below
 
 Site-served creatives are raw HTML or image files that are hosted by publishers instead of advertisers. We may receive one or more zipped HTML files or image files representing the creatives
 
-## Steps for setting up HTML tag
+Steps for setting up HTML tag
 
 1. The HTML tag can be in zip folder or the client can send the folder normally
 2. Unzip the folder and move the file to the github local repository in the path ad.populus-media.net/2021 
@@ -66,7 +66,7 @@ Site-served creatives are raw HTML or image files that are hosted by publishers 
 9. Save the file poperly after the completing the campaign.json  
 
 
-## Steps for setting up image tag
+steps for setting up image tag
 
 1. The image tag can be in zip folder or the client can send the folder normally
 2. Unzip the folder and move the file to the github local repository in the path ad.populus-media.net/2021
