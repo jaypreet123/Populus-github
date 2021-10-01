@@ -44,7 +44,7 @@ Here is an example of a third party tag
 
 Site-served creatives are raw HTML or image files that are hosted by publishers instead of advertisers. We may receive one or more zipped HTML files or image files representing the creatives
 
-steps for setting up HTML tag
+## Steps for setting up HTML tag
 
 1. The HTML tag can be in zip folder or the client can send the folder normally
 2. Unzip the folder and move the file to the github local repository in the path ad.populus-media.net/2021 
@@ -53,7 +53,26 @@ steps for setting up HTML tag
 5. Use <iframe src="put tag url here"></iframe> and test the tag in the HTML tag tester tool
 6. If the tag is working properly, the tag must be escaped with the help of json escaping tool
 7. Create a campaign.json file inside the main folder 
-8. In campaign.json file fix the height, width, type, and put the escaped tag under adTags within " "  
+8. In campaign.json file enter the height, width, ctype, and put the escaped tag under adTags within " "
+9. Save the file poperly after the completing the campaign.json  
+
+
+## Steps for setting up image tag
+
+1. The image tag can be in zip folder or the client can send the folder normally
+2. Unzip the folder and move the file to the github local repository in the path ad.populus-media.net/2021
+3. The images can be either in jpeg format or png format. 
+4. Test the images by gunning a local server or in the HTML tag tester tool
+5. Make sure to fix the dimensions like height, width of the image and remove the border if there
+6. For generating the HTML tag of the image, copy the url from the browser
+7. Use <img src="paste url of the image"></img> and preview this tag in the HTML tag tester tool
+8. If the tag is working properly, the tag must be escaped with the help of json escaping tool
+9. Create a campaign.json file inside the main folder 
+10. In campaign.json file enter the height, width, ctype and the put the escaped tag under ad.tags within " "
+11. save the file properly after compleating the campaign.json
+ 
+
+
 
 * Site served tag is concatenated with third party tag and escaped
 * The escaping process remains the same for all tags
