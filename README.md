@@ -51,7 +51,7 @@ sample campaign.json file is shown below
 ~~~
 
 {
-   "active": false,
+   "active": true,
    "reportingKey": "UA-157372883-11",
    "weights": "1",
    "subs": {
@@ -91,6 +91,28 @@ Site-served creatives are raw HTML or image files that are hosted by publishers 
 7. Create a campaign.json file inside the main folder 
 8. In campaign.json file enter the height, width, ctype, and put the escaped tag under adTags within " "
 9. Save the file poperly after the completing the campaign.json  
+    
+    sample campaign.json file 
+    
+ ~~~
+    
+{
+   "active": true,
+   "reportingKey": "UA-157372883-11",
+   "weights": "1",
+   "subs": {
+      "728x90": {
+         "type": "3",
+         "width": "728px",
+         "height": "90px",
+         "adTags": [
+            "<iframe src=\"https:\/\/ad.populus-media.net\/2021\/compass\/2021_Compass_Patient_728x90_HTML5_Banner\/\" style=\"border:none\", width=\"728\", height=\"90\"><\/iframe>"
+         ]
+      }
+   }   
+}
+    
+~~~~
 
 
 
