@@ -36,9 +36,12 @@ Here is an example of a third party tag
  
  * Escape javascript tag with the help of json escaping tool 
 
-    Here is a screenshot of **escaped** third party tag
+    sample of escaped third party tag
+    
+~~~~
+<ins class='dcmads' style='display:inline-block;width:300px;height:250px'\r\n    data-dcm-placement='N7417.3768237POPULUSMEDIAINC.\/B25186719.291185539'\r\n    data-dcm-rendering-mode='iframe'\r\n    data-dcm-https-only\r\n    data-dcm-gdpr-applies='gdpr=0'\r\n    data-dcm-gdpr-consent='gdpr_consent=${GDPR_CONSENT_755}'\r\n    data-dcm-addtl-consent='addtl_consent=${ADDTL_CONSENT}'\r\n    data-dcm-resettable-device-id=''\r\n    data-dcm-app-id=''>\r\n  <script src='https:\/\/www.googletagservices.com\/dcm\/dcmads.js'><\/script>\r\n<\/ins>
+~~~~
 
-![App Screenshot](https://user-images.githubusercontent.com/81978167/134903843-06bc1a88-0f14-47bd-831a-276c89134855.png)
 
 ## 4. Creating campaign.json file
 
