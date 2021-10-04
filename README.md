@@ -23,7 +23,7 @@ Here is an example of a third party tag
 ~~~~~
 ### Steps
 
-#### 1. Preview third party tag to make sure rendering correctly
+## 1. Preview third party tag to make sure rendering correctly
 
 
 
