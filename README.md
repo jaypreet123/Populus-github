@@ -70,7 +70,7 @@ sample campaign.json file is shown below
 
 
 
-### Site served creatives
+## Site served creatives
 
 Site-served creatives are raw HTML or image files that are hosted by publishers instead of advertisers. We may receive one or more zipped HTML files or image files representing the creatives
 
