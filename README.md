@@ -135,12 +135,30 @@ Site-served creatives are raw HTML or image files that are hosted by publishers 
 9. Create a campaign.json file inside the main folder 
 10. In campaign.json file enter the height, width, ctype and the put the escaped tag under ad.tags within " "
 11. save the file properly after compleating the campaign.json
+    
+    sample campaign.json file
+    
+~~~~       
+{
+  "active": true,
+  "reportingKey": "UA-157372883-11",
+  "weights": "1",
+  "subs": {
+     "728x90": {
+        "type": "3",
+        "width": "300px",
+        "height": "250px",
+        "adTags": [
+           "<img src=\"https:\/\/ad.populus-media.net\/2021\/helloworld\/image_300x250.jpeg\" style=\"border:none\", height=\"250\", width=\"300\"><\/img>"
+        ]
+     }
+  }   
+}
+~~~~
  
 
 
 
-* Site served tag is concatenated with third party tag and escaped
-* The escaping process remains the same for all tags
 
 ### HTML tag
 
