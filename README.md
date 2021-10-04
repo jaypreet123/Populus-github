@@ -55,7 +55,7 @@ Site-served creatives are raw HTML or image files that are hosted by publishers 
 
 Steps for setting up HTML tag
 
-1. The HTML tag can be in zip folder or the client can send the folder normally
+#1. The HTML tag can be in zip folder or the client can send the folder normally
 2. Unzip the folder and move the file to the github local repository in the path ad.populus-media.net/2021 
 3. Test the HTML tag by running a local server and in the HTML tag tester tool
 4. Make sure to fix the dimensions like height, width and border of the tag as required 
