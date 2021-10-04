@@ -27,12 +27,12 @@ Here is an example of a third party tag
 
 
 
-#### 2. Replace macros on third party tags
+## 2. Replace macros on third party tags
 
 * Replace the cache busting macro with our own macro **[RANDOM]**
 * Replace the GDPR macro with 0
  
- #### 3. Escaping third party tags
+ ## 3. Escaping third party tags
  
  * Escape javascript tag with the help of json escaping tool 
 
@@ -40,12 +40,33 @@ Here is an example of a third party tag
 
 ![App Screenshot](https://user-images.githubusercontent.com/81978167/134903843-06bc1a88-0f14-47bd-831a-276c89134855.png)
 
-### 4. Creating campaign.json file
+## 4. Creating campaign.json file
 
 * Create campaign.json file under the main folder of the campaign and move the folder to  ad.populus-media.net/2021 in local git repository
 * Write proper height, width, ctype of the image and paste the escaped tag under adTgas within " "
 
+
 sample campaign.json file is shown below
+
+~~~
+
+{
+   "active": false,
+   "reportingKey": "UA-157372883-11",
+   "weights": "1",
+   "subs": {
+      "300x250": {
+         "type": "3",
+         "width": "300px",
+         "height": "250px",
+         "adTags": [
+            "<ins class='dcmads' style='display:inline-block;width:300px;height:250px'\r\n    data-dcm-placement='N266802.3768237POPULUSMEDIAINC.\/B26423391.314189835'\r\n    data-dcm-rendering-mode='iframe'\r\n    data-dcm-https-only\r\n    data-dcm-gdpr-applies='gdpr=0'\r\n    data-dcm-gdpr-consent='gdpr_consent=${GDPR_CONSENT_755}'\r\n    data-dcm-addtl-consent='addtl_consent=${ADDTL_CONSENT}'\r\n    data-dcm-ltd='false'\r\n    data-dcm-resettable-device-id=''\r\n    data-dcm-app-id=''>\r\n  <script src='https:\/\/fw.adsafeprotected.com\/rjss\/www.googletagservices.com\/821927\/57322740\/dcm\/dcmads.js'><\/script>\r\n<\/ins>\r\n"
+         ]
+      }
+   }   
+}
+
+~~~
 
 
 
@@ -55,7 +76,7 @@ Site-served creatives are raw HTML or image files that are hosted by publishers 
 
 Steps for setting up HTML tag
 
-#1. The HTML tag can be in zip folder or the client can send the folder normally
+1. The HTML tag can be in zip folder or the client can send the folder normally
 2. Unzip the folder and move the file to the github local repository in the path ad.populus-media.net/2021 
 3. Test the HTML tag by running a local server and in the HTML tag tester tool
 4. Make sure to fix the dimensions like height, width and border of the tag as required 
