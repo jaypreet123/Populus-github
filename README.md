@@ -158,28 +158,4 @@ Site-served creatives are raw HTML or image files that are hosted by publishers 
   }   
 }
 ~~~~
- 
 
-
-
-
-### HTML tag
-
-HTML tags are like keywords which defines that how web browser will format and display the content. With the help of tags, a web browser can distinguish between an HTML content and a simple content. HTML tags contain three main parts: opening tag, content and closing tag.
-
-Steps for setting up HTML tag
-
-
-
-
- ## How to implement third party tag in campaign.json file:
-
-  * The escaped code is copied to the campaign.json file under adTags. 
-  * campaign.json file contains objects, properties, keys, width, height and weight.
-  * There can be one or more properties under single object.
-  * Finally the code in the saved and pushed in the github repository (ad.populus-media.net).
-
-  
-## Screenshot of campaign.json file:
-
-![App Screenshot](https://user-images.githubusercontent.com/81978167/134121816-67976274-bc9e-4852-908d-65e86c8f324c.png)
