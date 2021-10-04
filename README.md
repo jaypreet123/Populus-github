@@ -74,6 +74,7 @@ sample campaign.json file is shown below
 
 Site-served creatives are raw HTML or image files that are hosted by publishers instead of advertisers. We may receive one or more zipped HTML files or image files representing the creatives
 
+
 Steps for setting up HTML tag
 
 1. The HTML tag can be in zip folder or the client can send the folder normally
@@ -82,9 +83,16 @@ Steps for setting up HTML tag
 4. Make sure to fix the dimensions like height, width and border of the tag as required 
 5. Use `<iframe src="put tag url here"></iframe>` and test the tag in the HTML tag tester tool
 6. If the tag is working properly, the tag must be escaped with the help of json escaping tool
+   
+   sample of escaped HTML tag
+   ~~~
+    <iframe src=\"https:\/\/ad.populus-media.net\/2021\/compass\/2021_Compass_Patient_728x90_HTML5_Banner\/\" style=\"border:none\", width=\"728\", height=\"90\"><\/iframe>
+    ~~~
+
 7. Create a campaign.json file inside the main folder 
 8. In campaign.json file enter the height, width, ctype, and put the escaped tag under adTags within " "
 9. Save the file poperly after the completing the campaign.json  
+
 
 
 steps for setting up image tag
